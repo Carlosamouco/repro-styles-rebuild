@@ -30,7 +30,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.less",              
+              {
+                "inject": false,
+                "bundleName": "style-light",
+                "input": "./src/themes/styles-light.less"
+              },
+              {
+                "inject": false,
+                "bundleName": "style-dark",
+                "input": "./src/themes/styles-dark.less"
+              }
             ],
             "scripts": []
           },
